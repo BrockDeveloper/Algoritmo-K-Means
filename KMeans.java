@@ -76,9 +76,6 @@ public class KMeans
         System.out.println();        
     }
 
-
-
-
     //inizializza la matrice dati con numeri casuali tra 0 e 1
     public static void InizializzaDati(double[][] Dati)
     {
@@ -190,9 +187,5 @@ public class KMeans
         }
 
         return distanza;
-
     }
-    
-
-
 }
