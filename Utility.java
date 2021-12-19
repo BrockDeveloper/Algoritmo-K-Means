@@ -10,7 +10,7 @@ public class Utility
         //calcola la distanza per ogni caratteristica
         for(int i=0; i<KMeans.N; i++)
         {
-            distanza += Math.pow( (m1[i] - m2[1]), 2);
+            distanza += Math.pow( (m1[i] - m2[i]), 2);
         }
 
         return Math.sqrt(distanza);
